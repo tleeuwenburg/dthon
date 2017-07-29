@@ -17,3 +17,11 @@ Alternatively, you can run "add_everything.sh" for a comprehensive set of packag
 ## Additional Packages ##
 
 In order to simplify the "base build", reduce the complexity of the environment and reduce the size of the download, some additional scripts are present which can install additional functionality which may be of use. These may be found in the "additions" directory.
+
+## Notes for Windows users ##
+
+If you are on Windows, you should have no trouble installing the miniconda environment following the instructions in the quick install guide (linked above). The additions scripts are calls to the "conda" command, which should work as-is regardless of platform. If you run through the same sequence of commands as contained in the .sh scripts, you should be able to reproduce the dthon environment without issue. However, this is untested, so there are no guarantees.
+
+## Documentation and getting started ##
+
+This repository does not include any examples, tutorials or test cases. This is to keep the scope well-defined and small. However, in future as an extension exercise, creating additional walkthrough or tutorial repositories based on the dthon environment could be very useful. Please get in touch if you would find this helpful.
