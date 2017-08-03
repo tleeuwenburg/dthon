@@ -13,6 +13,8 @@ The list of packages is a curated list of best-of-breed alternatives. There are 
 3. RUN "source activate dthon" to begin working in that environment
 3. Run "add_standard.sh" to add a the basic package set to the current virtual environment
 
+Once installed, you can run 'py.test' to check that each package can be imported successfully.
+
 ## Additional Packages ##
 
 In order to simplify the "base build", reduce the complexity of the environment and reduce the size of the download, some additional scripts are present which can install additional functionality which may be of use. These may be found in the "additions" directory.
