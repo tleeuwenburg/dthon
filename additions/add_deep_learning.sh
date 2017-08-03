@@ -1,1 +1,2 @@
-conda install keras
+conda install -y tensorflow
+conda install -y keras
