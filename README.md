@@ -9,10 +9,9 @@ The list of packages is a curated list of best-of-breed alternatives. There are 
 ## Overview of the Process ##
 
 1. Install miniconda manually. https://conda.io/docs/install/quick.html has relevant installation instructions.
-2. Run "create_minimal.sh" to create and activate a "named" style environment called "dthon".
+2. Run "create_minimal.sh" to create and "named" style environment called "dthon".
+3. RUN "source activate dthon" to begin working in that environment
 3. Run "add_standard.sh" to add a the basic package set to the current virtual environment
-
-Alternatively, you can run "add_everything.sh" for a comprehensive set of packages.
 
 ## Additional Packages ##
 
